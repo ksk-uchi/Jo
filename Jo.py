@@ -55,9 +55,6 @@ class Jo(object):
                     continue
                 self.moveAfterId(states[state][j]["id"], states[state][j-1]["id"])
 
-    def quickSort(self):
-        pass
-
 if __name__ == '__main__':
     jo = Jo()
     jo.makeBunch("delivered", "rejected", "finished", "started")
